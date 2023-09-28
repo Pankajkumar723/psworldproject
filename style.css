@@ -1,0 +1,703 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* background: #000; */
+}
+
+.main {
+  width: 1365px;
+  height: 100%;
+  /* border: 1px solid red; */
+}
+
+/* Start Home Code  */
+
+header {
+  width: 100%;
+  height: 840px;
+  background-size: cover;
+  background-image: url(./images/banner-bg.png);
+  /* border: 1px solid red; */
+}
+
+.Heading-Header {
+  width: 100%;
+  height: 200px;
+  /* border: 1px solid red; */
+}
+
+.Heading-Header h1 {
+  color: white;
+  font-size: 40px;
+  font-family: sans-serif;
+  padding-top: 25px;
+  text-align: center;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all 0.5s linear;
+  
+}
+.Heading-Header h1:hover{
+  color: #fd7e14;
+  transform: scale(1.5);
+  
+}
+
+.Heading-Nav {
+  width: 52%;
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  justify-content: center;
+  justify-content: space-evenly;
+  /* border: 1px solid red; */
+
+}
+
+.Heading-Nav a {
+  color: white;
+  padding: 15px 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  border-radius: 10px;
+  transition: all 0.5s linear;
+}
+
+.Heading-Nav a:hover {
+  background: #6f42c1;
+}
+
+.Heading-Adventure {
+  width: 100%;
+  height: 638px;
+  text-align: center;
+  /* border: 1px solid blue; */
+}
+
+.Heading-Adventure h1 {
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding-top: 50px;
+  transition: all 0.7s linear;
+  cursor: pointer;
+}
+.Heading-Adventure h1:hover{
+  color: #fd7e14;
+  transform: scale(1.5);
+  font-family: serif;
+}
+
+.Heading-Adventure h4 {
+  color: white;
+  font-weight: 100;
+  font-family: sans-serif;
+  line-height: 25px;
+  word-spacing: 1px;
+  padding-top: 20px;
+
+}
+
+.Heading-Adventure button {
+  font-size: 18px;
+  color: rgb(102, 102, 102);
+  background: rgb(255, 255, 255);
+  font-weight: 100;
+  margin-top: 50px;
+  padding: 15px 50px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  transition: all 0.5s linear;
+}
+
+.Heading-Adventure button:hover {
+  background: #6610f2;
+  color: white;
+
+}
+
+.Services-Menu {
+  width: 100%;
+  height: 800px;
+  /* border: 1px solid black; */
+}
+
+.Services-Card {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  /* border: 1px solid gray; */
+}
+
+.Services-Menu h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  padding-top: 70px;
+}
+
+.Services-Menu h4 {
+  font-family: sans-serif;
+  padding-top: 20px;
+  font-weight: 100;
+  color: rgb(31, 31, 31);
+}
+
+.Services-Img {
+  width: 100%;
+  height: 450px;
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid blue; */
+}
+
+.Services-Calture-Img {
+  width: 330px;
+  height: 100%;
+  border-radius: 10px;
+  /* border: 1px solid red; */
+}
+
+.Calture-Img {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.Calture-Img img {
+  width: 100%;
+  height: 100%;
+}
+
+.Services-Calture-Img button {
+  padding: 15px 40px;
+  border-radius: 30px;
+  margin-top: 25px;
+  margin-left: 90px;
+  font-size: 16px;
+  color: white;
+  background-color: rgb(43, 34, 120);
+  font-weight: bold;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.5s linear;
+
+}
+
+.Services-Calture-Img button:hover {
+  background: #000;
+}
+
+.About-menu {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  /* border: 1px solid black; */
+}
+
+.About-us {
+  width: 50%;
+  height: 550px;
+  /* border :1px solid blue; */
+}
+
+.About-us h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.About-us h4 {
+  font-weight: 100;
+  font-family: sans-serif;
+  line-height: 25px;
+  color: rgb(31, 31, 31);
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.About-us button {
+  margin-top: 50px;
+  margin-left: 100px;
+  border-radius: 30px;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: white;
+  background: #000;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.About-us button:hover {
+  background-color: rgb(43, 34, 120);
+
+}
+
+.About-us img {
+  width: 100%;
+  height: 100%;
+}
+
+.Video-Slider {
+  width: 100%;
+  height: 1000px;
+  background-image: url(./images/blog-bg.png);
+  background-size: cover;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.Video-Slider h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding-top: 250px;
+  color: #ffffff;
+}
+
+.Video-Slider h4 {
+  padding-top: 40px;
+  font-family: sans-serif;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+.play-icon {
+  width: 130px;
+  height: 130px;
+  padding: 20px;
+  margin-top: 120px;
+  margin-left: 600px;
+  cursor: pointer;
+}
+
+.Testimonial {
+  width: 100%;
+  height: 700px;
+  /* border: 1px solid red; */
+
+}
+
+.Testimonial-menu {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  /* border: 1px solid blue; */
+}
+
+.Testimonial-menu h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-top: 70px;
+}
+
+.Testimonial-Dame {
+  width: 100%;
+  height: 400px;
+  margin-top: 50px;
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 16px -6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.Testimonial-Dame-Lorem {
+  width: 45%;
+  height: 80%;
+  /* border: 1px solid red; */
+}
+
+.Lorem-Text {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.Lorem-Text h4 {
+  color: dimgrey;
+  font-weight: 100;
+  font-family: sans-serif;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.Dame-Img {
+  width: 170px;
+  height: 170px;
+  border-radius: 30px;
+  margin-top: 70px;
+  margin-left: 30px;
+  background-image: url(./images/client-img.png);
+  background-size: cover;
+  float: left;
+  /* border: 1px solid red; */
+}
+
+.Dame-Customer {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+  height: 100px;
+  width: 200px;
+  margin: 130px 0px 0px 20px;
+  float: left;
+  text-align: left;
+  color: rgb(1, 38, 40);
+  /* border: 2px solid red; */
+
+}
+
+.dametaxt2 {
+  padding-top: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(8, 90, 87);
+
+}
+
+.Dame-Icon {
+  padding: 270px 250px 0px 0px;
+
+}
+
+.Slider-Btn {
+  width: 100%;
+  height: 133px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.Slider-Click {
+  width: 20px;
+  height: 20px;
+  margin: 0px 10px;
+  border-radius: 50%;
+  background-color: rgb(135, 129, 189);
+}
+
+.Choose-Slider {
+  width: 100%;
+  height: 600px;
+  /* border: 1px solid red; */
+}
+
+.Choose-Menu {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  /* border: 1px solid blue; */
+}
+
+.Choose-Menu h1 {
+  font-family: sans-serif;
+  font-size: 40px;
+  color: #1f1f1f;
+  font-weight: bold;
+  padding-top: 80px;
+
+}
+
+.Choose-Menu h4 {
+  font-weight: 100;
+  font-family: sans-serif;
+  color: #666666;
+  padding-top: 50px;
+  line-height: 25px;
+}
+
+.Choose-Menu button {
+  padding: 15px 40px;
+  border-radius: 30px;
+  border: none;
+  background: #000;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+  /* border: 1px solid red; */
+}
+
+.Choose-Menu button:hover {
+  background-color: rgb(43, 34, 120);
+
+}
+
+.Choose-Text-Box {
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 30px;
+  border: 1px solid black;
+
+
+}
+
+.Choose-Text-Box h1 {
+  height: 100%;
+  padding-top: 0px;
+  /* border: 1px solid red; */
+}
+
+.Choose-Text-Box button {
+  margin-top: 0px;
+  background-color: rgb(43, 34, 120);
+
+
+}
+
+.Choose-Text-Box button:hover {
+  background: #000;
+}
+
+.Address-Bar {
+  width: 100%;
+  height: 650px;
+  text-align: center;
+  background-image: url(./images/footer-bg.png);
+  background-size: cover;
+  /* border: 1px solid red; */
+}
+
+.Address-Input {
+  position: relative;
+}
+
+.Address-Bar input {
+  margin-top: 250px;
+  width: 500px;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding: 18px 20px;
+
+}
+
+.Address-Bar h1 {
+  position: absolute;
+  color: white;
+  right: 34%;
+  bottom: 17px;
+  cursor: pointer;
+  color: #2b2278;
+  font-weight: 100;
+  font-size: 18px;
+  font-family: sans-serif;
+  transition: all 0.5s linear;
+
+}
+
+.Address-Bar h1:hover {
+  color: #000;
+}
+
+.Address-Bar-Nav {
+  width: 200px;
+  height: 340px;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+
+.Phone-Icon img {
+  padding-top: 50px;
+
+}
+
+.Phone-Icon h3 {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  padding-top: 15px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.Phone-Icon h3:hover {
+  color: #fd7e14;
+}
+
+.Email-Icon img {
+  padding-top: 20px;
+}
+
+.Email-Icon h3 {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  padding-top: 15px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+
+}
+
+.Email-Icon h3:hover {
+  color: #fd7e14;
+}
+
+.Social-Icon {
+  padding-top: 40px;
+  cursor: pointer;
+}
+.Header-Template{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-spacing: 3px;
+  background-color: #122c2d;
+
+}
+.Header-Template h4{
+    color:#ffffff;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.Header-Template h5{
+  color:#ffffff;
+  font-size: 16px;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+.Header-Template h2{
+  color:#ffffff;
+  font-size: 16px;
+  font-weight: 100;
+  font-family: sans-serif;
+  padding-left: 8px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.Header-Template h2:hover{
+  color: #fd7e14;
+  
+}
+/* Stop Home Code  */
+
+/* Start About Code  */
+.About-Header-Bg{
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-image: url(./images/banner-bg.png);
+  /* border: 1px solid red; */
+
+}
+/* Stop About Code  */
+
+/* Start Services Code  */
+.Services-Header-Bg{
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-image: url(./images/banner-bg.png);
+  /* border: 1px solid red; */
+
+}
+/* Stop Services Code  */
+
+/* Start Blogs Code  */
+.Blogs-Header-Bg{
+  width: 100%;
+  height: 200px;
+  margin-bottom: 80px;
+  background-size: cover;
+  background-image: url(./images/banner-bg.png);
+  /* border: 1px solid red; */
+}
+/* Stop Blogs Code  */
+
+/* Start Contact us Code  */
+.Contact-Header-Bg{
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-image: url(./images/banner-bg.png);
+  /* border: 1px solid red; */
+
+}
+.Contact-Inform{
+  width: 100%;
+  height: 700px;
+  /* border: 1px solid red; */
+}
+.Contact-Inform-menu{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+.Contact-Inform-menu h1{
+  font-size: 40px;
+  font-family: sans-serif;
+  padding-top: 100px;
+  font-weight: 800;
+  color: #363636;
+}
+.Contact-Inform-menu input{
+  width: 70%;
+  height: 60px;
+  margin:  20px 0px;
+  font-size: 18px;
+  padding-left: 10px;
+  outline:none;
+}
+input.Contact-mass{
+  height: 150px;
+  padding-bottom: 80px;
+}
+.Contact-Inform-menu button{
+  padding: 15px 50px;
+  border-radius: 30px;
+  display: block;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  background-color: #000d10;
+  margin-left: 500px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.Contact-Inform-menu button:hover{
+  background: #6610f2;
+}
+/* Stop Contact us Code  */
